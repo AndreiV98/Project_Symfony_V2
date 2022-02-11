@@ -88,6 +88,26 @@
     "friendsofsymfony/user-bundle": {
         "version": "v2.2.4"
     },
+    "jms/metadata": {
+        "version": "2.6.1"
+    },
+    "jms/serializer": {
+        "version": "3.17.1"
+    },
+    "jms/serializer-bundle": {
+        "version": "4.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "3.0",
+            "ref": "384cec52df45f3bfd46a09930d6960a58872b268"
+        },
+        "files": [
+            "./config/packages/dev/jms_serializer.yaml",
+            "./config/packages/jms_serializer.yaml",
+            "./config/packages/prod/jms_serializer.yaml"
+        ]
+    },
     "laminas/laminas-code": {
         "version": "4.5.1"
     },
@@ -111,6 +131,12 @@
     },
     "namshi/jose": {
         "version": "7.2.3"
+    },
+    "nikic/php-parser": {
+        "version": "v4.13.2"
+    },
+    "phpstan/phpdoc-parser": {
+        "version": "1.2.0"
     },
     "psr/cache": {
         "version": "2.0.0"
@@ -239,6 +265,15 @@
     "symfony/intl": {
         "version": "v4.4.37"
     },
+    "symfony/maker-bundle": {
+        "version": "1.36",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
+        }
+    },
     "symfony/mime": {
         "version": "v4.4.37"
     },
@@ -311,6 +346,9 @@
         "version": "v4.4.37"
     },
     "symfony/security-http": {
+        "version": "v4.4.37"
+    },
+    "symfony/serializer": {
         "version": "v4.4.37"
     },
     "symfony/service-contracts": {
